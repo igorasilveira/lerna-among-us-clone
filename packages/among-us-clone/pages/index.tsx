@@ -1,19 +1,26 @@
-import Link from 'next/link'
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import Modal from '../components/Modal';
 import { useGameState } from '../context/GameContext';
-import { useRouter } from 'next/router'
+
+const INITIAL_POSITION: IPoint = {
+  x: 100,
+  y: 100,
+};
 
 function Index() {
-  const {setPlayer} = useGameState();
-  const router = useRouter()
+  const { setPlayer } = useGameState();
+  const router = useRouter();
   const [modalOpen, setModalOpen] = useState(false);
-  const [playerName, setPlayerName] = useState("");
+  const [playerName, setPlayerName] = useState('');
 
   const onSubmit = () => {
-    setPlayer(playerName);
+    setPlayer({
+      name: playerName,
+      position: INITIAL_POSITION,
+    });
     router.push('/game');
-  }
+  };
 
   return (
     <div className="flex justify-center h-screen items-center">
@@ -26,7 +33,7 @@ function Index() {
         </p>
         <button onClick={() => setModalOpen(true)} className="bg-blue-300 p-4 rounded-md text-white font-bold uppercase">
           Game on
-          </button>
+        </button>
       </header>
       <Modal
         title="Hello"
