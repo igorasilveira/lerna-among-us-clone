@@ -1,6 +1,6 @@
 {
   "name": "@among-them/app",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
