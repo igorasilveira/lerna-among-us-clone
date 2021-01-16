@@ -54,5 +54,6 @@
     "eslint-config-airbnb-typescript": "^12.0.0",
     "tslint": "^6.1.3",
     "typescript": "^4.1.3"
-  }
+  },
+  "gitHead": "3a09ebbc589eebe80b4b645260f3527620e2ae5a"
 }
