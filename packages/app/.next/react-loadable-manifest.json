@@ -1,0 +1,14 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ],
+  "react-p5": [
+    {
+      "id": "./node_modules/react-p5/build/index.js",
+      "file": "static/chunks/1.js"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "Server for the Among Them game",
+  "keywords": [
+    "typescript",
+    "amongus"
+  ],
+  "author": "Igor Silveira <igor.silveira@edirectinsure.com>",
+  "homepage": "https://github.com/igorasilveira/lerna-among-us-clone#readme",
+  "license": "ISC",
+  "main": "src/main.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorasilveira/lerna-among-us-clone.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/igorasilveira/lerna-among-us-clone/issues"
+  }
+}

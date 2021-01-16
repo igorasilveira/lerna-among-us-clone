@@ -1,0 +1,26 @@
+[
+    {
+        "id": "sxayuiasx5612",
+        "position": {
+            "x": 350,
+            "y": 550
+        },
+        "type": "kill"
+    },
+    {
+        "id": "sxdasdasiasx5612",
+        "position": {
+            "x": 350,
+            "y": 590
+        },
+        "type": "task"
+    },
+    {
+        "id": "s51fauiasx5612",
+        "position": {
+            "x": 650,
+            "y": 350
+        },
+        "type": "kill"
+    }
+]

@@ -1,0 +1,9 @@
+const TASK_RADIUS = 20;
+const TASK_COLOR = 'green';
+const TASK_PLAYER_DISTANCE_TRIGGER = 50;
+
+export {
+  TASK_RADIUS,
+  TASK_COLOR,
+  TASK_PLAYER_DISTANCE_TRIGGER,
+};

@@ -1,0 +1,9 @@
+const PLAYER_RADIUS = 30;
+const PLAYER_COLOR = 'yellow';
+const PLAYER_WALL_DISTANCE = 1;
+
+export {
+  PLAYER_RADIUS,
+  PLAYER_COLOR,
+  PLAYER_WALL_DISTANCE,
+};
