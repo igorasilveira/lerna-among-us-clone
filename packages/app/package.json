@@ -1,5 +1,5 @@
 {
-  "name": "among-us-clone",
+  "name": "@among-them/app",
   "version": "0.0.2",
   "private": true,
   "dependencies": {

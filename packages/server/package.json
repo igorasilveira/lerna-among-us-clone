@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@among-them/server",
   "version": "0.0.2",
   "description": "Server for the Among Them game",
   "keywords": [
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/igorasilveira/lerna-among-us-clone/issues"
   },
-  "gitHead": "68bc3f43ade2dcb2ea2a22249038565342194660"
+  "gitHead": "3739c00beca7e2178100b1b2562f7f503d6f55a0"
 }
