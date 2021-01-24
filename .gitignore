@@ -59,3 +59,9 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Nextjs build folder
+.next/
+
+# Nestjs build folder
+dist/
